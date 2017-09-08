@@ -1,0 +1,27 @@
+
+.table{
+  thead{
+    th{
+      border:none;
+      text-align: center;
+      font-size: 12px;
+      color: $font;
+      border-bottom:2px solid $line-under-th !important;
+    }
+  }
+  tbody{
+    tr{
+      td{
+        border: none;
+        text-align: center;
+        font-size: 14px;
+        .fa{
+          padding-right: 5px;
+          cursor: pointer;
+          font-size: 20px;
+          float: left;
+        }
+      }
+    }
+  }
+}

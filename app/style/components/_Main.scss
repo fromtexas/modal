@@ -1,0 +1,28 @@
+.main{
+  background-color: $background;
+  width: 1000px;
+  margin: auto;
+  padding: 1rem;
+  position: relative;
+  .close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .add-client{
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 2;
+    i{
+      font-size: 26px;
+      vertical-align: middle;
+      padding-right: 10px;
+    }
+  }
+}
+#app{
+  display: flex;
+  height: 100vh;
+}

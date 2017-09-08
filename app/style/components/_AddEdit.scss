@@ -1,0 +1,52 @@
+.form-group{
+  .btn{
+    background-color: $button;
+    border: none;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+}
+
+form{
+  max-height: 0;
+  opacity: 0;
+  transition: .5s;
+  position: relative;
+  // padding-bottom: 60px;
+  // margin-bottom: 25px;
+  border-bottom: 1px solid #e2e1e1;
+  .form-group{
+    margin-bottom: 0;
+  }
+  label{
+    font-size: 12px;
+    color: $font;
+    margin-left: 5px;
+    font-weight: 500;
+  }
+  .form-control{
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+  }
+  .fa-angle-up{
+    cursor: pointer;
+    position: absolute;
+    font-size: 35px;
+    &:first-of-type{
+      bottom: 5px;
+      left: 10px;
+    }
+    &:last-of-type{
+      bottom: 5px;
+      right: 10px;
+    }
+  }
+}
